@@ -1,38 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+/* cabeçalho */
 .App {
-  text-align: center;
+  font-family: "Karla";
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* flex-direction: row; */
+  padding-top: 10px;
+
+  background-color: white;
+  border: none;
+  justify-content: space-between;
+}
+
+.header__img {
+  padding-left: 100px;
+  padding-top: 10px;
+  max-width: 90px;
+  max-height: 20px;
+}
+.header__button {
+  padding-right: 80px;
+  display: flex;
+}
+.header__button_one {
+  background-color: white;
+  color: #d3d3d3;
+  border: none;
+  transition-duration: 0.4s;
+  margin: 5px;
+}
+.header__button_one:hover {
+  background-color: #0000;
+  color: black;
+}
+.header__button_two {
+  background-color: white;
+  color: #d3d3d3;
+  border: none;
+  transition-duration: 0.4s;
+  margin: 5px;
+}
+.header__button_two:hover {
+  background-color: #0000;
+  color: black;
+}
+.header__button_tree {
+  background-color: white;
+  color: #d3d3d3;
+  border: none;
+  transition-duration: 0.4s;
+  opacity: 0.9;
+  margin: 5px;
+}
+.header__button_tree:hover {
+  background-color: #0000;
+  color: black;
+}
+.header__button_four {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 18px;
+  transition-duration: 0.4s;
+  margin: 5px;
+}
+.header__button_four:hover {
+  background-color: black; /* Green */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* incio do body */
+.card {
+  /* display: flex; */
+  padding-left: 100px;
+  background-color: hsl(256, 26%, 20%);
+  justify-content: flex-end;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card__title {
+  font-family: "DM Serif Display";
+  color: hsl(0, 0%, 98%);
+}
+.card__text {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: hsl(0, 0%, 98%);
+}
+.card__button {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  padding: 10px 18px;
+  transition-duration: 0.4s;
+  margin: 5px;
+  border: solid 1px white;
+}
+.card__button:hover {
+  background-color: white; /* Green */
+  color: black;
 }
