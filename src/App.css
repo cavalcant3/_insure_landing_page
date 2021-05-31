@@ -5,17 +5,15 @@
 }
 .header {
   display: flex;
-  /* flex-direction: row; */
-  padding-top: 10px;
-
+  padding-left: 100px;
   background-color: white;
-  border: none;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__img {
-  padding-left: 100px;
-  padding-top: 10px;
+  padding: 20px;
+
   max-width: 90px;
   max-height: 20px;
 }
@@ -71,20 +69,33 @@
 }
 
 /* incio do body */
+
 .card {
-  /* display: flex; */
+  display: flex;
   padding-left: 100px;
   background-color: hsl(256, 26%, 20%);
-  justify-content: flex-end;
+  width: 100px 500px;
+  height: 500px;
+}
+.card__text {
+  display: block;
+  padding-top: 10px;
 }
 .card__title {
   font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
   color: hsl(0, 0%, 98%);
+  margin-bottom: 0px;
 }
-.card__text {
+.card__subtitle {
   font-family: "Karla", sans-serif;
   font-size: 16px;
   color: hsl(0, 0%, 98%);
+}
+.body_image {
+  display: flex;
+  flex-direction: row;
 }
 .card__button {
   background-color: hsl(256, 26%, 20%);
@@ -93,6 +104,7 @@
   transition-duration: 0.4s;
   margin: 5px;
   border: solid 1px white;
+  align-items: flex-start;
 }
 .card__button:hover {
   background-color: white; /* Green */
