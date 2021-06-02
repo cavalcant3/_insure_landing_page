@@ -29,8 +29,8 @@ function App() {
             perspiciatis qui itaque eligendi enim.
           </p>
           <button className="card__button">VIEW PLANS</button>
-          <img src={ImgBody} className="body_image" />
         </div>
+        <img src={ImgBody} className="body_image" />
       </div>
     </div>
   );

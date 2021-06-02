@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
 /* cabeçalho */
+
 .App {
   font-family: "Karla";
 }
@@ -64,7 +65,7 @@
   margin: 5px;
 }
 .header__button_four:hover {
-  background-color: black; /* Green */
+  background-color: black;
   color: white;
 }
 
@@ -94,8 +95,11 @@
   color: hsl(0, 0%, 98%);
 }
 .body_image {
-  display: flex;
-  flex-direction: row;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: 100%;
+  -webkit-transform: translate(0%, 25%);
+  transform: translate(0%, 25%);
 }
 .card__button {
   background-color: hsl(256, 26%, 20%);
@@ -107,6 +111,6 @@
   align-items: flex-start;
 }
 .card__button:hover {
-  background-color: white; /* Green */
+  background-color: white;
   color: black;
 }
