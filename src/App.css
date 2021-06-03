@@ -75,8 +75,12 @@
   display: flex;
   padding-left: 100px;
   background-color: hsl(256, 26%, 20%);
-  width: 100px 500px;
+  /* width: 100px 500px; */
   height: 500px;
+  width: 1800px;
+}
+.line {
+  -webkit-transform: translate(0%, 2000%);
 }
 .card__text {
   display: block;
@@ -94,12 +98,21 @@
   font-size: 16px;
   color: hsl(0, 0%, 98%);
 }
+.body__svg__left {
+  max-width: 100%;
+  transform: translate(0%, 30%);
+  -webkit-transform: translate(0%, -40%);
+}
+.body__svg__right {
+  transform: translate(0%, 10%);
+  -webkit-transform: translate(78%, -169%);
+}
 .body_image {
   -o-object-fit: cover;
   object-fit: cover;
   max-width: 100%;
-  -webkit-transform: translate(0%, 25%);
-  transform: translate(0%, 25%);
+
+  transform: translate(93%, 25%);
 }
 .card__button {
   background-color: hsl(256, 26%, 20%);
