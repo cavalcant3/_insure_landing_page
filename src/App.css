@@ -127,3 +127,16 @@
   background-color: white;
   color: black;
 }
+
+/* body */
+
+.body {
+  font-family: "DM Serif Display";
+  font-size: 30px;
+  color: hsl(256, 26%, 20%);
+  height: 0.1rem;
+  margin-bottom: 15rem;
+  /* display: block; */
+  width: 90rem;
+  background-color: #fafafa;
+}
