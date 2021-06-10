@@ -1,10 +1,14 @@
 import "./App.css";
 import ImgLogo from "./images/logo.svg";
 import ImgBody from "./images/image-intro-desktop.jpg";
+import ImgSnappy from "./images/icon-snappy-process.svg";
+import ImgAffordable from "./images/icon-affordable-prices.svg";
+import ImgPeople from "./images/icon-people-first.svg";
 
 function App() {
   return (
     <div className="App">
+      {/* cabeçalho */}
       <nav>
         <div className="header">
           <img src={ImgLogo} className="header__img" />
@@ -19,6 +23,7 @@ function App() {
       <div className="card">
         <div className="card__text">
           <hr size="1" width="100" className="line" align="left"></hr>
+          {/* body inicio */}
           <h1 className="card__title">
             Humanizing <br />
             your insicurance.
@@ -59,6 +64,45 @@ function App() {
           </g>
         </svg>
       </div>
+      <section className="different">
+        <h1 class="different__h1">We’re different</h1>
+        <div class="different_gridcolumn">
+          <div>
+            <img src={ImgSnappy} />
+            <h2>Snappy Process</h2>
+            <p>
+              Our application process can be completed in minutes, not hours.
+              Don’t get stuck filling in tedious forms.
+            </p>
+          </div>
+          <div>
+            <img src={ImgAffordable} alt="" />
+            <h2>Affordable Prices</h2>
+            <p>
+              We don’t want you worrying about high monthly costs. Our prices
+              may be low, but we still offer the best coverage possible.
+            </p>
+          </div>
+          <div>
+            <img src={ImgPeople} alt="" />
+            <h2> People First</h2>
+            <p>
+              Our plans aren’t full of conditions and clauses to prevent
+              payouts. We make sure you’re covered when you need it.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* body banner */}
+      <section className="bannerfim">
+        <div class="bannerfim__grid">
+          <h1 class="h1">
+            Find out more <br />
+            about how we work
+          </h1>
+          <button class="bannerfim__button">How we work</button>
+        </div>
+      </section>
     </div>
   );
 }
