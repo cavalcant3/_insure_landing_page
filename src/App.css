@@ -3,6 +3,10 @@
 
 .App {
   font-family: "Karla";
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .header {
   display: flex;
@@ -75,8 +79,6 @@
   display: flex;
   padding-left: 100px;
   background-color: hsl(256, 26%, 20%);
-  /* width: 100px 500px; */
-  height: 500px;
   width: 1800px;
 }
 .line {
@@ -126,4 +128,18 @@
 .card__button:hover {
   background-color: white;
   color: black;
+}
+.different {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  margin-bottom: 10rem;
+  padding: 1rem 10%;
+  font-size: 1.5rem;
+}
+.different__h1 {
+}
+.different_gridcolumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
