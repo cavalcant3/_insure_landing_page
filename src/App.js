@@ -66,30 +66,34 @@ function App() {
         </svg>
       </div>
       <section className="different">
+        <hr size="1" width="100" className="line" align="left"></hr>
         <h1 class="different__h1">We’re different</h1>
         <div class="different_gridcolumn">
           <div>
             <img src={ImgSnappy} />
             <h2>Snappy Process</h2>
             <p>
-              Our application process can be completed in minutes, not hours.
-              Don’t get stuck filling in tedious forms.
+              Our application process can be completed in <br />
+              minutes, not hours. Don’t get stuck filling in
+              <br /> tedious forms.
             </p>
           </div>
           <div>
             <img src={ImgAffordable} alt="" />
             <h2>Affordable Prices</h2>
             <p>
-              We don’t want you worrying about high monthly costs. Our prices
-              may be low, but we still offer the best coverage possible.
+              We don’t want you worrying about high monthly costs. <br />
+              Our prices may be low, but we still offer
+              <br /> the best coverage possible.
             </p>
           </div>
           <div>
             <img src={ImgPeople} alt="" />
             <h2> People First</h2>
             <p>
-              Our plans aren’t full of conditions and clauses to prevent
-              payouts. We make sure you’re covered when you need it.
+              Our plans aren’t full of conditions and clauses <br />
+              to prevent payouts. We make sure you’re <br />
+              covered when you need it.
             </p>
           </div>
         </div>

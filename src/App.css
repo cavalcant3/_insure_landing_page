@@ -130,16 +130,41 @@
   color: black;
 }
 .different {
-  font-family: "DM Serif Display";
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 10rem;
   padding: 1rem 10%;
-  font-size: 1.5rem;
+  /*font-size: 1.5rem; */
 }
 .different__h1 {
+  font-family: "DM Serif Display";
+  font-size: 70px;
+  text-align: left;
+  font-weight: 400;
 }
 .different_gridcolumn {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.different_gridcolumn h2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+}
+.different_gridcolumn p {
+  color: #d2d3d4;
+  font-size: 16px;
+}
+.bannerfim {
+  background-color: hsl(256, 26%, 20%);
+  width: 1800px;
+}
+.bannerfim__grid {
+  display: flex;
+  justify-content: space-between;
+}
+.bannerfim__grid h1 {
+  color: white;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 45px;
 }
