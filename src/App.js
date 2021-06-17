@@ -101,7 +101,7 @@ function App() {
       {/* body banner */}
       <section className="bannerfim">
         <div class="bannerfim__grid">
-          <h1 class="h1">
+          <h1 class="bannerfim__h1">
             Find out more <br />
             about how we work
           </h1>
