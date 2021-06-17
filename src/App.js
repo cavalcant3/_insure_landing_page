@@ -100,8 +100,8 @@ function App() {
       </section>
       {/* body banner */}
       <section className="bannerfim">
-        <div class="bannerfim__grid">
-          <h1 class="bannerfim__h1">
+        <div className="bannerfim__grid">
+          <h1 className="bannerfim__h1">
             Find out more <br />
             about how we work
           </h1>

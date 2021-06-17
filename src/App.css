@@ -145,7 +145,7 @@
 .different_gridcolumn {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .different_gridcolumn h2 {
   font-family: "DM Serif Display";
@@ -161,17 +161,33 @@
   background-color: hsl(256, 26%, 20%);
   padding: 2rem;
   margin-bottom: 14rem;
+  margin-left: 20rem;
+  width: 1110px;
+  height: 252px;
 }
 .bannerfim__grid {
   display: flex;
+  padding: 20px;
   justify-content: space-between;
-  margin-bottom: 10rem;
-  padding: 1rem 10%;
-  font-size: 1.5rem;
 }
 .bannerfim__grid h1 {
   color: white;
   font-family: "DM Serif Display";
   font-weight: 400;
-  font-size: 45px;
+  font-size: 55px;
+}
+.bannerfim__button {
+  font-family: "karla", sans-serif;
+  background-color: transparent;
+  color: white;
+  width: 12rem;
+  height: 4rem;
+  transition-duration: 0.4s;
+  margin: 5px;
+  -webkit-transform: translate(10%, 125%);
+  border: solid 1px white;
+}
+.bannerfim__button:hover {
+  background-color: white;
+  color: black;
 }
